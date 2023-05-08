@@ -1,3 +1,3 @@
-# McDecryptor
+# McUtils
 
-Minecraft Marketplace Content Decryptor.
+Utilities to decrypt Minecraft Marketplace Contents
