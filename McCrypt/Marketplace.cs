@@ -224,6 +224,9 @@ namespace McCrypt
                 if (decKey == null)
                     continue;
 
+                if (Path.GetFileName(relPath).ToLowerInvariant() == "manifest.json")
+                    continue;
+
                 Thread thrd = new Thread(() =>
                 {
                     string filePath = Path.Combine(baseDirectory, relPath); // Combine pack dir, with file relative path
